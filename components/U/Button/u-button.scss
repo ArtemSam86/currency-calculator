@@ -1,0 +1,10 @@
+.u-button {
+  $u-radio: &;
+
+  @apply bg-background
+  rounded-[5px] border-[1px] border-solid
+  border-border p-4 cursor-pointer
+  font-medium text-16 leading-[19px]
+  text-primary hover:bg-secondary
+  active:bg-primary;
+}

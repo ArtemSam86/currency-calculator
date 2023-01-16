@@ -1,0 +1,15 @@
+.u-list {
+  $u-list: &;
+
+  @apply flex flex-col gap-[30px];
+
+  li {
+    @apply font-normal text-18 leading-5
+    text-text-main flex flex-row
+    items-center gap-[10px] w-[308px];
+
+    p {
+      @apply w-[287.64px];
+    }
+  }
+}

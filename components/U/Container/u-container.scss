@@ -1,0 +1,11 @@
+.u-container {
+  $u-container: &;
+
+  &__secondary {
+    @apply bg-secondary;
+  }
+
+  &__gray {
+    @apply bg-gray;
+  }
+}

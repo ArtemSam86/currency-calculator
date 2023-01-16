@@ -1,0 +1,13 @@
+.u-input {
+  $u-input: &;
+
+  &__title {
+    @apply font-medium text-16 leading-[19px]
+    flex items-center text-text-dark mb-[15.14px];
+  }
+  &__input {
+    @apply w-[699px] h-[50px] bg-background
+    rounded-[5px] border-[1px] border-solid
+    border-border p-5;
+  }
+}

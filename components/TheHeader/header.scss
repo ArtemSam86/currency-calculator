@@ -1,0 +1,16 @@
+.header {
+  $header: &;
+
+  @apply w-full h-[46px] fixed bg-gray;
+
+  &__menu {
+    @apply flex absolute left-80 top-1/3;
+
+    &-item {
+      @apply text-12 font-medium leading-[14px] text-text-gray-500 mr-[31px];
+      &__active {
+        @apply text-text-gray-700;
+      }
+    }
+  }
+}

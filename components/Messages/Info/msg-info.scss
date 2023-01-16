@@ -1,0 +1,10 @@
+.msg-info {
+  $msg-info: &;
+
+  @apply flex items-center p-8
+  gap-[33px] h-[127px] rounded-2xl;
+
+  &__text {
+    @apply font-bold text-24 leading-[34px] text-primary;
+  }
+}

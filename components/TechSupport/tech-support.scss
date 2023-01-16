@@ -1,0 +1,30 @@
+.tech-support {
+  $tech-support: &;
+
+  @apply w-[1440px] h-[260px] rounded-2xl
+  flex flex-row gap-[58.22px] p-[50px];
+
+  &__info {
+    @apply flex flex-col gap-[30px];
+    h1 {
+      @apply font-medium text-36 leading-[46px] text-text-blue-500;
+    }
+    p {
+      @apply font-normal text-16 leading-6 text-text-main;
+    }
+  }
+
+  &__contacts {
+    @apply flex flex-col items-center gap-5;
+    h1 {
+      @apply font-medium text-[50px] leading-[46px] text-text-blue-500;
+    }
+    p {
+      @apply font-normal text-24 leading-7 text-text-main;
+    }
+    h2 {
+      @apply font-normal text-[34px] leading-10
+      text-right tracking-[1px] text-text-blue-500;
+    }
+  }
+}

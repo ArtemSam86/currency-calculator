@@ -1,0 +1,37 @@
+.currency-card {
+  $currency-card: &;
+
+  @apply min-w-[460px] h-[330px] rounded-2xl
+  p-[30px] gap-10 flex flex-col;
+
+  &__title {
+    @apply flex flex-col gap-[30px];
+    h1 {
+      @apply font-bold text-20 leading-7 text-primary
+      flex items-center;
+    }
+    p {
+      @apply font-normal text-16 leading-[22px]
+      text-text-gray-950 flex items-center;
+    }
+  }
+
+  &__marker {
+    @apply w-[10px] h-[10px] border-2
+    border-solid border-red rounded-full;
+  }
+
+  &__list {
+    @apply flex flex-col gap-[25.14px];
+
+    li {
+      @apply font-medium text-16 leading-5
+      text-text-gray-900 flex flex-row
+      items-center gap-[10px] w-[308px];
+
+      p {
+        @apply w-[287.64px];
+      }
+    }
+  }
+}
