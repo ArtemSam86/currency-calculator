@@ -2,6 +2,10 @@ export default
 {
     components: true,
 
+    router: {
+        middleware: ['redirect']
+    },
+
     buildModules:
     [
         "@nuxtjs/eslint-module",

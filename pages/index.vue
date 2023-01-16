@@ -1,13 +1,9 @@
 <template>
-  <NuxtChild keep-alive/>
+  <NuxtChild />
 </template>
 <script>
 export default {
-  data() {
-    return {
-      currencyList: {},
-    };
-  },
+  middleware: 'redirect',
   created() {
     this.$router.push('/calculator');
   },
